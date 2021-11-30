@@ -1,0 +1,23 @@
+<cdk-virtual-scroll-viewport [itemSize]="2" class="viewport">
+  <table>
+      <thead>
+         <tr>
+            <td>ID</td>
+            <td>ThumbNail</td>
+            <td>Title</td>
+         </tr>
+      </thead>
+      <tbody>
+         <tr *cdkVirtualFor = "let album of data">
+            <td>{{album.id}}</td>
+            <td>
+               <img src = "{{album.thumbnailUrl}}" width = "100" height = "100"/>
+            </td>
+           <td>
+             {{album.title}}
+           </td>
+         </tr>
+      </tbody>
+   </table>
+
+</cdk-virtual-scroll-viewport>

@@ -1,0 +1,14 @@
+<p>deleteuser works!</p>
+
+<h1>Delete User</h1>
+
+<form method="post" (ngSubmit)="handleSubmit()">
+  <input type="number" name="userid" id="user-id" placeholder="Enter Id To Delte User" [(ngModel)]="userId" required>
+  <br/><br/>
+  <input type="submit" value="Delete User">
+</form>
+
+
+<div *ngFor="let user of users">
+  <h4>{{user.id}}  {{user.name}}  {{user.email}}</h4>
+</div>

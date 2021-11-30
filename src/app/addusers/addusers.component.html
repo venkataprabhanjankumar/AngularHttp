@@ -1,0 +1,12 @@
+<p>addusers works!</p>
+<form method="post" (ngSubmit)="SubmitUser()">
+  <input type="text" name="name" placeholder="Enter Name" [(ngModel)]="name" required>
+  <br/><br/>
+  <input type="text" name="email" placeholder="Enter Email" [(ngModel)]="email" required>
+  <br/><br/>
+  <input type="submit" value="Submit">
+</form>
+
+<div *ngFor="let user of users">
+  <h4>{{user.id}}  {{user.name}}  {{user.email}}</h4>
+</div>

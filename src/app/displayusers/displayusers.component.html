@@ -1,0 +1,10 @@
+<p>displayusers works!</p>
+
+<div *ngFor="let user of users">
+  <h4>{{user.id}}  {{user.name}}  {{user.email}}</h4>
+</div>
+
+<div *ngIf="singleUser">
+  <h2>Single User</h2>
+  <h4>{{userSingle.id}}  {{userSingle.name}}  {{userSingle.email}}</h4>
+</div>

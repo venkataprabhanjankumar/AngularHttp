@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "abc",
+      "email": "abc@gmail.com"
+    },
+    {
+      "name": "pandu",
+      "email": "pandunerusu123@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "prabhanjan",
+      "email": "venkataprabhanjankumar@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Sampath",
+      "email": "sampath@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "prabha",
+      "email": "prabha@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Prabhanjan Kumar",
+      "email": "prabha.mathi519@gmail.com",
+      "id": 8
+    }
+  ]
+}
